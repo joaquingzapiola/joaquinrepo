@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ofertas y compras- El baúl del libro usado</title>
+	<link rel="shortcut icon" href="../img/favicon.svg">
+	<!-- mi css -->
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<!-- ends head -->
+<body>
+	<div class="body__encabezado--info">
+		<p>Sitio de El bául del libro - Tel: 0123456789</p>
+	</div>
+	<div>
+		<nav id="nav">
+		    <div class="nav__flex--padre">
+				<div class="nav__div--logo">
+					<a href="../index.html"> 
+						<img src="../img/logo2.svg" alt="logo de la página el bául del libro usado">
+		            </a>
+		        </div>
+		        <ul class="nav__menu--index">
+			        <li>
+				        <a href="./libros.html" target="_blank">Libros</a>
+			        </li>
+			        <li>
+				        <a href="./locales.html" target="_blank">Locales</a>
+			        </li>
+			        <li>
+				        <a href="./ofertas-y-compras.html" target="_blank">Ofertas y Compras</a>
+			        </li>
+			        <li>
+				       <a href="./contacto.html#contacto" target="_blank">Contacto</a>
+			        </li>
+		        </ul>
+		        <!-- ends ul -->
+		        <form action="../../form-result.php" method="post" target="_blank">
+                 <label><span class="body__form--busqueda">Búsqueda de libros:</span>
+             	    <input class="body__form--input" type="search" name="busquedadelibros" placeholder="Título, autor, tema...">
+         	        <input type="button" class="body__form--button body__form__button--click" value="Buscar"> 
+         	     </label>
+                </form>
+                <!-- ends form -->
+            </div>
+	    </nav>
+	    <!-- ends nav -->
+	    <header id="header">
+		    <img class="header__img__heroe--xxl" src="../img/header.jpg" alt="imagen libros en una mano">
+	    </header>
+	    <!-- ends header -->
+	    <main id="productos" id="mainOfertas">
+	    	<h1 class="main__libros__titulo--h1">Ofertas del mes</h1>
+		    <div class="galeria">			
+			    <figure>
+				    <img src="../img/suma-de-teologia.jpg" alt="libro suma teologica de santo tomás de aquino">
+				    <figcaption>Suma de Teologia - Santo Tomás de Aquino</figcaption>
+				    <p class="price">$500,00</p>
+			    </figure>
+
+			    <figure>
+				    <img src="../img/para-que-sirve.jpg" alt="libro ¿Para que sirve la filosofía? de Dario Sztajnszrajber">
+				    <figcaption>¿Para que sirve la filosofía? - Dario Sztajnszrajber</figcaption>
+				    <p class="price">$900,00</p>
+			    </figure>
+		    </div>
+		    <div class="galeria">			
+			    <figure>
+				    <img src="../img/recetas-dias.jpg" alt="libro Recetas de tus dias">
+				    <figcaption>Recetas de tus días - Susana Gomez</figcaption>
+				    <p class="price">$450,00</p>
+			    </figure>
+
+			    <figure>
+				    <img src="../img/diseno-todos.jpg" alt="">
+				    <figcaption>Diseño grafico para todos - Nair Calderon</figcaption>
+				    <p class="price">$1500,00</p>
+			    </figure>
+		    </div>
+	        <!-- ends list libros y precios -->
+	        <h2>Carrito</h2>
+	        <section>
+	        	<div class="main__div__carrito--ofertas-y-compras">
+	        		<form action="envio.php" id="contacto" class="div__form__carrito--ofertas-y-compras">
+	        			<div class="radio radio1">
+	        				<legend class="form__legend">-Compras y envios-</legend>
+	   		                <input type="checkbox" id="suma de teologia" value="Suma de teologia">
+	   		                <label for="suma de teologia">Suma de teologia</label>
+	   		        
+	   		                <input type="checkbox" id="¿Para que sirve la filosofía?" value="¿Para que sirve la filosofía?">
+	   		                <label for="¿Para que sirve la filosofía?">¿Para que sirve la filosofía?</label>
+	   		        
+	   		                <input type="checkbox" id="Recetas de tus días" value="Recetas de tus días">
+	   		                <label for="Recetas de tus días">Recetas de tus días</label>
+	   		        
+	   		                <input type="checkbox" id="Diseño grafico para todos" value="Diseño grafico para todos">
+	   		                <label for="Diseño grafico para todos">Diseño grafico para todos</label>
+	   		        
+	   		                <input type="checkbox" id="Metafisica" value="Metafisica">
+	   		                <label for="Metafisica">Metafisica</label>
+	   		       
+	   		                <input type="checkbox" id="No-Cosas" value="No-Cosas">
+	   		                <label for="No-Cosas">No-Cosas</label>
+	   		            </div>
+	   		        </form>
+	   		        <form action="envio.php" id="contacto" class="div__form__carrito--ofertas-y-compras">
+	   			        <div class="checkbox checkbox1">
+	   	    	            <legend class="form__legend">Envios/Retiros</legend>
+	   	    	      
+	   	    	            <input type="radio" id="local" value="Retiro sucursal" name="retiro">
+	   	    	            <label for="local">Retiro por sucursal</label>
+	   	    	    
+	   	    	            <input type="radio" id="domicilio" value="Domicilio" name="retiro">
+	   	    	            <label for="domicilio">Envio domicilio</label>
+	   	                    <input type="button" class="form__input__bottom--ofertas-y-compras" value="Comprar"/>
+	   	                </div>
+	                </form>
+	            </div>
+	        </section>
+	   <!-- ends form -->
+	</main>
+	<!-- ends main -->
+	<footer id="footer">
+		<div class="footer__flex__padre">
+			<h3>¡Visitanos!</h3>
+			<div class="footer__div__text--left">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210650.46679442516!2d-59.12399036718749!3d-34.41624929999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9d6271092d55%3A0x9430d5328bf02006!2sSt%20Matthew%E2%80%99s%20Village!5e0!3m2!1ses!2sar!4v1653760929596!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+		        </iframe>
+	        </div>
+		    <div class="footer__div__text--left2">
+		    	<a href="views/contacto.html" target="_blank">
+		    		<img src="../img/mail-icon.png" alt="icono mail">
+	            </a>
+	        </div>
+	        <div class="footer__div__text--center">
+	        	<legend>
+	        		<a class="footer__div__text--center2" href="https://www.mercadopago.com"target="_blank">MEDIOS DE PAGO
+			        </a>
+		        </legend>
+		        <a href="https://www.mercadopago.com" target="_blank">
+			        <img id="footer__img--pagos" src="../img/medios-de-pago.jpg"  alt="medios de pagos disponibles">
+		        </a>
+	        </div>
+		    <div class="footer__div__text--right">
+		    	<a href="https://www.facebook.com" target="_blank"> 
+			        <img src="../img/facebook.png" alt="icono facebook" class="footer__img--redes" >
+		        </a>
+		        <a href="https://www.twitter.com" target="_blank"> 
+			        <img src="../img/twitter.png" alt="icono twitter" class="footer__img--redes">
+		        </a>
+		        <a href="https://www.instagram.com" target="_blank"> 
+			        <img src="../img/instagram.png" alt="icono instagram" class="footer__img--redes">
+		        </a>
+	        </div>
+	    </div>
+	</footer>
+	<!-- ends footer -->
+	</div>
+</body>
+<!-- ends body -->
+</html>

@@ -1,0 +1,5 @@
+Colores y estilos para Index.html
+
+h1: color: rgb(30,38,38)
+h2: color: rgb(41, 57, 64)
+footer > legend (o id #pie): color: rgb(41, 0, 064);

@@ -1,0 +1,1603 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500&display=swap');
+
+/* Inicia Caracteristicas universales/generales CSS */
+
+*{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+/* Fin caracteristicas universales/generales CSS */
+
+/* Inicia maquetado de index.html + caracteristicas que se pueden o no mantenrer en las otras páginas */
+
+/* Encabezado superior */
+
+.body__encabezado--info{
+  text-align: center;
+  color: black;
+  background-color: #fff;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+  font-size: 1.5em;
+  font-family: 'Anek Telugu', sans-serif;
+  padding: 6px 0px;
+  box-sizing: border-box;
+}
+
+/* Fin encabezado superior */
+
+/* Inicia maquetado de grid para index.html */
+
+/* ETIQUETAS RESERVADAS PARA EL PROYECTO ORIGINAL 
+ .contenedor__padre--index{
+	display: grid;
+	grid-template-columns: 20% 70% 10%;
+	grid-template-rows: repeat(5, auto);
+  grid-template-areas: "nav nav nav" "header header header" "main main main" "aside aside aside" "footer footer footer";
+}
+
+#nav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#mainIndex{
+	grid-area: main ;
+}
+
+#asideIndex{
+	grid-area: aside;
+}
+
+#footer{
+	grid-area: footer;
+}
+ */
+
+/* Mobile grid */
+
+.contenedor__padre--index{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "nav" "header" "mainIndex" "asideIndex" "footer";
+}
+
+#mainNav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#mainIndex{
+	grid-area: mainIndex;
+}
+
+#aside{
+	grid-area: asideIndex;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+
+/* Fin mobile grid */
+
+/* Recordar volver a insertar "etiquetas reservas" para el original */
+
+.aside__flex--padre{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-self: space-around;
+	margin-top: 20vh;
+}
+
+/* Fin etiquetas para el desafío */
+
+/* Fin maquetado de grid para index.html */
+
+/* Inicia Nav. Igual en todo el sitio */
+
+html{
+ 	font-size: 62.5%;
+}
+
+.nav__flex--padre{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+nav{
+	background-color: rgb(166, 138, 123);
+	width:100%;
+	height: auto;
+	border: solid 4px rgb(166, 138, 123);
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+
+.nav__div--logo img{
+	width: 200px;
+	margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nav__menu--index{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-right: 0;
+		margin-bottom: 10px;
+}
+	nav ul{
+		list-style: none;
+		margin: 2px,2px;
+		padding: 0;
+		overflow: hidden;
+    background-color:rgb(2, 53, 53);
+    width: auto;
+    border:2px solid #e7e7e7;;
+    text-align: center;
+    display: flex;
+	}
+		nav ul li{
+			border-right:1px solid #bbb;
+			border-left: 1px solid #bbb;
+			display: inline-block;
+		}
+			nav ul li a{
+				 display: block;
+         color: white;
+         text-align: center;
+         padding: 5px 16px;
+         text-decoration: none;
+         font-family: 'Anek Telugu', sans-serif;
+         font-size: 1.2rem;
+         margin-top: 0px;
+			}
+				nav ul li a:hover:not(.active){
+					background-color:rgb(53, 53, 100);
+					transition-duration: 0.3s;
+				}
+				.active{
+					background-color: rgb(1, 89, 89);
+                }
+
+nav form{
+	text-align: right;
+	margin: 0px 10px;
+}
+
+         nav form label{
+	         font-family: 'Anek Telugu', sans-serif;
+	         font-size: 1.2rem;
+	         color: white;
+}
+
+/* Fin Nav. Igual en todo el sitio */
+
+/* Inicia Header/Imagen Heroe. Igual en todo el sitio */
+
+.header__img__heroe--xxl{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border: 4px solid #ccccca;
+	padding: auto;
+	margin-bottom: 20px;
+	background-color: #ccccca;
+	box-sizing: border-box;
+}
+
+/* Fin Header/Imagen Heroe. Igual en todo el sitio */
+
+/* Etiqueta reservada .body__form--flex{  }*/
+
+/* Inicia Body - El form se encuentra localizado en la Nav y no en main- pero se realiza su maquetado de CSS a parte*/
+
+/* Inicia Form */
+
+.nav__form--index{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+}
+.body__form--busqueda{
+	background-color: rgb(30, 38, 38) ;
+	border:1.5px solid rgb(30 38 38);
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+.body__form--img{
+	width: 30px;
+	height: auto;
+}
+
+.body__form--input{
+	border-radius: 4px;
+	margin-bottom: 20px;
+	width: 123px;
+	height: 30px;
+}
+
+.body__form--button{
+	background-color: rgb(30, 38, 38);
+  border: none;
+  color: white;
+  padding:1px 24px;
+  text-align: auto;
+  text-decoration: none;
+  font-family:'Anek Telugu', sans-serif ;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 13px;
+  margin: 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.body__form__button--click:hover {
+  background-color: white;;
+  color: #555555;
+}
+
+/* Fin Form */
+
+/* Etiquetas generales de los "h" */
+h1,
+h2{
+	font-family: 'Anek Telugu', sans-serif;
+}
+
+h1{
+	color: rgb(30,38,38);
+	font-size: 4rem;
+	margin: 0px;
+	text-align: center;
+}
+
+.main__index__titulo--h1{
+	display: inline-block;
+	margin-top: 5px;
+	position: relative;
+	border: none;
+	padding: 0 100px;
+	font-size: 2.5rem;
+}
+
+
+.index__subtitulo--centrado{
+	color: rgb(30,38,38);
+	font-size: 2.5rem;
+	margin: 0px;
+	text-align: center;
+}
+
+/* Fin etiquetas generales de los "h" */
+
+/* Inicia Main de index.html */
+
+.main__flex--padre{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body main{
+	box-sizing: border-box;
+	text-align: center;
+}
+main h2{
+	color: rgb(41, 57, 64);
+	font-size: 2.5rem;
+	margin: 0;
+}
+.section{
+		margin-right: 0px;
+}
+
+#main__destacados--index .destacados{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+	#main__destacados--index .destacados figure{
+		text-align: center;
+		width:100%;
+		height: auto;
+	}
+
+		#main__destacados--index .destacados figure img{
+			border-radius: 5px;
+			width: 100%;
+			height: auto;
+		}
+
+#main__destacados--index .destacados figure .figcaptionGreen{
+	text-align: center;
+	padding: 1px;
+  margin: 15% auto;
+  width: 100%;
+  height: 10%;
+  font-size: 1.5rem;
+  left: 30px;
+  background-color: rgb(30,38,38);
+  color: white;
+  border: 2px	solid rgb(30,38,38)	;
+  box-shadow: 7px 13px 37px #728a7c;
+}
+
+#main__destacados--index .destacados figure figcaption{
+			text-align: center;
+	    padding: 1px;
+      margin: 15% auto;
+      width: 100%;
+      height: auto;
+      font-size: 1.5rem;
+      left: 30px;
+      background-color: rgb(30,38,38);
+      color: white;
+      border: 2px	solid rgb(30,38,38)	;
+      box-shadow: 7px 13px 37px #ffea7a;
+		}
+		
+/* Fin Main de index.html */
+
+/* Inicia Aside de index.html */
+
+/* Etiqueta reservada para el proyecto original
+.aside__ad__index{
+	text-align: center;
+	margin: 60px;
+	border: black 10px solid;
+	padding: 30px;
+	border-image: linear-gradient(to left,blueviolet, darkslateblue, darkblue) 1 0;
+}
+ */
+/* Reservada para el proyecto original/desktop 
+.asideprueba{
+	margin-right:20px;
+}
+*/
+.aside__ad__img--tamaño{
+	height: auto;
+	width: 90vw;
+	margin-top: 0;
+	margin-right: 100px;
+	border: black 3px solid;
+	border-image: linear-gradient(to left,blueviolet, darkslateblue, darkblue) 1 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+/* Fin Aside de index.html*/
+
+/* Inicia Footer de index.html - pero se replica en todas las demaás páginas de igual forma */
+
+footer{
+	margin:10px;
+	padding: 10px 5px;
+	border: black 4px solid;
+	width: 95%;
+	box-sizing: border-box;
+	background-color:white;
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-weight: 500;
+	text-decoration: none;
+	color: #551a8b;
+}
+
+.footer__flex__padre{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+.footer__div__text--right{
+	display: flex;
+	border: black 3px solid;
+	border-image:linear-gradient(to bottom, blueviolet, darkslateblue) 1 100%;
+}
+
+.footer__div__text--left{
+	text-align: left;
+	display: flex;
+	background-color: white;
+}
+
+.footer__div__text--left2{
+	text-align: left;
+	display: flex;
+	background-color: white;
+}
+
+.footer__div__text--center{
+  text-align: center;
+	margin: 10 px auto;
+	text-decoration: none;
+	
+	
+}
+.footer__div__text--center2{
+  text-align: center;
+	margin: 10 px auto;
+	text-decoration: none;
+	}
+.footer__img--redes{
+	width: 50px;
+}
+#footer__img--pagos{
+	width: 250px; 
+	left: 100px;
+}
+/* Fin Footer de index.html */
+
+/* Fin Body */
+
+/* Fin maquetado index.html */
+
+/* Inicia mquetado de libros.html -se omiten algunas etiquetas que ya se aplican a la página- */
+
+/* Inicia Main de libros.html */
+
+/*  
+.contenedor__padre--libros{
+	display: grid;
+	grid-template-columns: 20% 70% 10%;
+	grid-template-rows: repeat(4, auto);
+  grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer";
+}
+
+#nav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#mainLibros{
+	grid-area: main ;
+}
+
+#footer{
+	grid-area: footer;
+}
+*/
+
+.contenedor__padre--libros{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "nav" "header" "mainLibros" "footer";
+}
+
+#nav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#mainLibros{
+	grid-area: mainLibros;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+.main__libros__titulo--h1{
+	display: inline-block;
+	margin-top: 5px;
+	position: relative;
+	border: none;
+	padding: 0 100px;
+	font-size: 2.5rem;
+}
+
+
+
+.main__div__table--libros{
+	 width: 98vw;
+	 margin:	50px auto;
+	 border: solid 2px black;
+}
+
+	
+.main__table--libros{
+   width: 100%;
+   background-color: #ddd;
+   text-align: left;
+   font-family: 'Anek Telugu', sans-serif;
+   color: black;
+   border-collapse: collapse;
+   font-size: 1.1rem;
+}
+
+.tr__table--libros:nth-child(even){
+	background-color: whitesmoke;
+	color: black;
+}
+.tr__table--libros:hover .td__table--libros{
+	background-color: #369681;
+	color: white;
+}
+	th, td{
+		padding: 20px;
+	}
+ 
+ .th__table--libros{
+ 	background-color: #015959 ;
+ 	border-bottom: solid 5px black;
+ 	color: white;
+ }
+
+ /* Fin Main de libros.html */
+
+ /* Fin maquetado de libros.html -se omiten algunas etiquetas que ya se aplican a la página- */
+
+ /* Inicia maquetado de locales.html -se omiten algunas etiquetas que ya se aplican a la página- */
+
+/* Inicia form de locales.html */
+
+.contenedor__padre--locales{
+	display: grid;
+	grid-template-columns: 20% 70% 10%;
+	grid-template-rows: repeat(4, auto);
+  grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer";
+}
+
+#nav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#mainLocales{
+	grid-area: main ;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+
+ .main__div__form--locales{
+	 width: 98vw;
+	 margin:	5px auto;
+	 border: solid 2px black;
+	 border-radius: 5px;
+	 font-size: 1.5rem;
+	 font-family: 'Anek Telugu', sans-serif;
+	background-color: #7171d6;
+	color: white;
+	padding-bottom: 10px;
+}
+
+	.main__h2__form--locales{
+		color: white;
+}
+
+.main__form__select--locales{
+	box-shadow: 0 10 px 25px rgba(0, 0, 0, 0.1);
+	font-size: 1.1rem;
+	padding: 0.1em 1.5em;
+	background: #fafafa;
+	color: #484889;
+	border: 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-left: 100px;
+}
+
+/* Fin form de locales.html */
+
+/* Inicia table de locales.html */
+
+.main__div__table--locales{
+	 width: 98vw;
+	 margin:	50px auto;
+	 border: solid 2px black;
+	 font-size: 1.5rem;
+	 font-family: 'Anek Telugu', sans-serif;
+	 color: white;
+}
+
+.main__table--locales{
+   width: 100%;
+   background-color: #ddd;
+   text-align: left;
+   font-family: 'Anek Telugu', sans-serif;
+   color: black;
+   border-collapse: collapse;
+   font-size: 1.1rem;
+}
+
+.th__table--locales{
+ 	background-color: #49498a ;
+ 	border-bottom: solid 5px black;
+ 	color: white;
+ }
+
+.tr__table--locales:nth-child(even){
+	background-color: whitesmoke;
+	color: black;
+}
+.tr__table--locales:hover .td__table--libros{
+	background-color: #7171d6;
+	color: white;
+}
+	th, td{
+		padding: 20px;
+	}
+/* Fin tabla de locales.html*/
+
+/* Inicia maquetado de ofertas-y-compras.html*/
+
+.contenedor__padre--ofertas{
+	display: grid;
+	grid-template-columns: 20% 70% 10%;
+	grid-template-rows: repeat(4, auto);
+  grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer";
+}
+
+#nav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#mainOfertas{
+	grid-area: main ;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+/* Inicia main - fotos y productos*/
+
+#productos .galeria{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+	#productos .galeria figure{
+		text-align: center;
+		width:98vw;
+	}
+
+		#productos .galeria figure img{
+			border-radius: 5px;
+			width: 80%;
+			height: 70%;
+		}
+
+		#productos .galeria figure figcaption{
+			font-size: 1.6rem;
+			color: #f9f9f9 ;
+			margin-top: 10px;
+			padding: 10px 0;
+			background-color: #194f8f;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+
+		#productos .galeria p.price{
+			color: #0b2442;
+			padding-bottom: 10px;
+			background-color: #194f8f;
+			font-size: 1.5rem;
+			color: #f9f9f9 ;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+
+/* Inicia main - fotos y productos*/
+
+/* Inicia main - carrito*/
+
+	main section div{
+		box-sizing: border-box;
+		
+		padding: 0;
+		font-size: 16px;
+		font-family:'Anek Telugu', sans-serif;
+		background-color: #FFF;
+}
+
+.main__div__carrito--ofertas-y-compras{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+	.radio1{
+		display: flex;
+		flex-direction: column;
+}
+
+.div__form__carrito--ofertas-y-compras{
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+	.checkbox1{
+		display: flex;
+		flex-direction: column;
+}
+
+
+.div__form__carrito--ofertas-y-compras input[type="radio"],
+.div__form__carrito--ofertas-y-compras input[type="checkbox"]{
+		display: none;
+}
+
+	.div__form__carrito--ofertas-y-compras .radio label,
+	.div__form__carrito--ofertas-y-compras .checkbox label{
+		color: #0074d9;
+		padding: 5px 15px 5px 51px;
+		display: inline-block;
+		position: relative;
+		font-size: 1em;
+		border-radius: 3px;
+		cursor: pointer;
+		-webkit-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease ;	
+	}
+
+	.div__form__carrito--ofertas-y-compras .radio label:hover,
+	.div__form__carrito--ofertas-y-compras .checkbox label:hover{
+		background-color: rgba(0, 116, 217, 0.1);
+	}
+
+	.div__form__carrito--ofertas-y-compras .radio label:before,
+	.div__form__carrito--ofertas-y-compras .checkbox label:before{
+		content: "";
+		width: 17px;
+		height: 17px;
+		display: inline-block;
+		background-color: none;
+		border: 3px solid #0074d9;
+		border-radius: 50%;
+		position: absolute;
+		left: 17px;
+	}
+
+	.div__form__carrito--ofertas-y-compras .checkbox label:before{
+		border-radius: 3px;
+	}
+
+	.div__form__carrito--ofertas-y-compras input[type="radio"]:checked + label,
+	.div__form__carrito--ofertas-y-compras input[type="checkbox"]:checked +label{
+		padding: 5px 25px;
+		background-color: #0074d9;
+		border-radius: 2px;
+		color: #fff;
+	}
+
+	.div__form__carrito--ofertas-y-compras input[type="radio"]:checked + label:before,
+	.div__form__carrito--ofertas-y-compras input[type="checkbox"]:checked +label:before{
+		display: none;
+	}
+
+	.form__legend--ofertas-y-compras{
+		color: #194f9f;
+		font-family:'Anek Telugu', sans-serif;
+		font-size: 2.5rem;
+}
+
+.form__input__bottom--ofertas-y-compras{
+	background-color: rgba(0, 116, 217, 0.1);
+	display: inline-block;
+	color: #194f9f;
+	padding: 1px 24px;
+	font-family:'Anek Telugu', sans-serif;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: auto;
+	text-decoration: none;
+	margin: 10px;
+	transition-duration: 0.4s;
+}
+
+.form__input__bottom--ofertas-y-compras:hover {
+  background-color: #194f9f;;
+  color: #fff;
+}
+
+/* Fin table de locales.html */
+
+/* Fin maquetado de ofertas-y-compras.html */
+
+/* Inicio maquetado de contacto.html */
+
+.contenedor__padre--contacto{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "nav" "header" "form" "aside" "footer";
+}
+
+#mainNav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#formContacto{
+	grid-area: form;
+}
+
+#aside{
+	grid-area: aside;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+.aside__flex--padre{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-self: center;
+	align-items: center;
+	margin-top: 10vh;
+}
+
+aside img{
+			border-radius: 5px;
+			width: 50%;
+			height: auto;
+			background-color: none;
+			margin: 20px;
+			margin-top: 80px;
+			right: 20px ;
+			padding: 0 10px;
+}
+
+.legend__form--contacto{
+	font-size: 1.5rem;
+	font-family:'Anek Telugu', sans-serif;
+	margin-top: 10px;
+	margin-bottom: -25px;
+}
+
+.form__contacto{
+	width: 97%;
+	background-color: #232f3a;
+	padding: 10px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	border-radius:10px;
+	color: #fff;
+}
+
+form ul{
+	list-style-type:none ;
+}
+
+.label__form--contacto{
+	font-size: 1.5rem;
+	font-family:'Anek Telugu', sans-serif;
+	padding: 10px;
+}
+	.form__registro--contacto{
+		font-size: 1.5rem;
+		margin-bottom: 0px;
+		font-family:'Anek Telugu', sans-serif;
+}
+
+	.form__inputs--contacto{
+		width: 100%;
+		padding: 10px;
+}
+
+	.form__li__promos--contacto{
+		margin-bottom: 1px;
+		margin-top: 5px;
+		overflow-y: hidden;
+}
+
+.form__bottons--contacto{
+	width: 100%;
+	background-color: #1649af;
+	border: none;
+	padding: 12px;
+	cursor: pointer;
+	color: #fff;
+	font-family:'Anek Telugu', sans-serif;
+	font-size: 1.5rem;
+	border-radius: 10px;
+}
+/* Fin maquetado de contacto.html */
+
+/* ======================= Inicio de MEDIA QUERIES ======================= */
+
+
+@media (min-width: 1200px){
+
+h1::after,h1::before{
+	content:'';
+	position: absolute;
+	width: 120px;
+	height: 3px;
+	background-color: #1e2626;
+	top: 0.6em;
+	transform: scale(0);
+	transition: all 0.2s ease-in;
+}
+h1:hover::before, h1:hover::after{
+	transform: scale(1);
+}
+	h1::before{
+		left: -25px;
+}
+  h1::after{
+		right: -25px;
+}
+
+/* Inicia maquetado index.html */
+	.contenedor__padre--index{
+	display: grid;
+	grid-template-rows: 20vw  35vw 45vw ;
+	grid-template-rows: auto;
+	grid-template-areas: "nav nav nav" "header header header" "mainIndex mainIndex asideIndex" " footer footer footer";
+}
+
+#mainNav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#mainIndex{
+	grid-area: mainIndex;
+}
+
+#aside{
+	grid-area: asideIndex;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+/* Inicia Nav. desktop */
+
+
+.nav__flex--padre{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav{
+	background-color: rgb(166, 138, 123);
+	width:100vw;
+	height: auto;
+	border: solid 4px rgb(166, 138, 123);
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+
+.nav__div--logo img{
+	width: 22vw;
+  margin-bottom: 30px;
+}
+
+.nav__menu--index{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-right: 0;
+		margin-left: 70px;
+		margin-bottom: 10px;
+}
+	nav ul{
+		list-style: none;
+		margin: 2px,2px;
+		padding: 0;
+		overflow: hidden;
+    background-color:rgb(2, 53, 53);
+    width: auto;
+    border:2px solid #e7e7e7;;
+    text-align: center;
+    display: flex;
+	}
+		nav ul li{
+			border-right:1px solid #bbb;
+			border-left: 1px solid #bbb;
+			display: inline-block;
+		}
+			nav ul li a{
+				 display: block;
+         color: white;
+         text-align: center;
+         padding: 5px 16px;
+         text-decoration: none;
+         font-family: 'Anek Telugu', sans-serif;
+         font-size: 1.5rem;
+         margin-top: 0px;
+			}
+				nav ul li a:hover:not(.active){
+					background-color:rgb(53, 53, 100);
+					transition-duration: 0.3s;
+				}
+				.active{
+					background-color: rgb(1, 89, 89);
+                }
+
+nav form{
+	text-align: right;
+	margin: 0px 10px;
+}
+    nav form img{
+    	float:right ;
+}
+         nav form label{
+	         font-family: 'Anek Telugu', sans-serif;
+	         font-size: 1.5rem;
+	         color: white;
+}
+
+/* Fin Nav. desktop */
+
+/* Inicia Header. desktop */
+
+.header__img__heroe--xxl{
+	width: 100%;
+	height: 60vh;
+	border: 4px solid #ccccca;
+	padding: auto;
+	margin-bottom: 20px;
+	background-color: #ccccca;
+	box-sizing: border-box;
+}
+
+/* Fin Header. desktop */
+
+/* Inicia Main. desktop */
+
+h1,
+h2{
+	font-family: 'Anek Telugu', sans-serif;
+}
+
+h1{
+	color: rgb(30,38,38);
+	font-size: 2.8rem;
+	margin: 0px;
+	text-align: center;
+}
+
+.main__index__titulo--h1{
+	display: inline-block;
+	margin-top: 5px;
+	position: relative;
+	border: none;
+	padding: 0 100px;
+	font-size: 2.8rem;
+}
+
+
+.index__subtitulo--centrado{
+	color: rgb(30,38,38);
+	font-size: 2.6rem;
+	margin: 0px 400px;
+	text-align: center;
+}
+
+.main__flex--padre{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+body main{
+	box-sizing: border-box;
+	text-align: center;
+}
+main h2{
+	color: rgb(41, 57, 64);
+	font-size: 3rem;
+}
+.section{
+		margin-right: 30px;
+}
+
+#main__destacados--index .destacados{
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+	#main__destacados--index .destacados figure{
+		text-align: center;
+		width:50%;
+	}
+
+		#main__destacados--index .destacados figure img{
+			border-radius: 5px;
+			width: 70%;
+			height: auto;
+		}
+
+		#main__destacados--index .destacados figure figcaption{
+			text-align: center;
+	    padding: 1px;
+      margin: 10% auto;
+      width: 73%;
+      height: auto;
+      font-size: 1.5rem;
+      left: 30px;
+      background-color: rgb(30,38,38);
+      color: white;
+      border: 2px	solid rgb(30,38,38)	;
+      box-shadow: 7px 13px 37px #ffea7a;
+		}
+#main__destacados--index .destacados figure .figcaptionGreen{
+	text-align: center;
+	padding: 1px;
+  margin: 10% auto;
+  width: 73%;
+  height: auto;
+  font-size: 1.5rem;
+  left: 30px;
+  background-color: rgb(30,38,38);
+  color: white;
+  border: 2px	solid rgb(30,38,38)	;
+  box-shadow: 7px 13px 37px #728a7c;
+}
+/* Fin Main. desktop */
+
+/* Inicia Aside. desktop */
+
+.aside__ad__img--tamaño{
+	height: auto;
+	width: 12vw;
+	margin-top: 40vh;
+	margin-right: 100px;
+	border: black 3px solid;
+	border-image: linear-gradient(to left,blueviolet, darkslateblue, darkblue) 1 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+/* Fin Aside. desktop*/
+
+
+/* Inicia Footer. desktop */
+
+footer{
+	margin:10px;
+	padding: 10px 5px;
+	border: black 4px solid;
+	width: 98.5%;
+	box-sizing: border-box;
+	background-color:white;
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-weight: 500;
+	text-decoration: none;
+	color: #551a8b;
+}
+
+.footer__flex__padre{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+.footer__div__text--right{
+	float: right;
+	display: flex;
+	border: black 3px solid;
+	border-image:linear-gradient(to bottom, blueviolet, darkslateblue) 1 100%;
+}
+
+.footer__div__text--left{
+	text-align: left;
+	display: flex;
+	background-color: white;
+}
+
+.footer__div__text--left2{
+	text-align: left;
+	display: flex;
+	background-color: white;
+}
+
+.footer__div__text--center{
+  text-align: center;
+	margin: 10 px auto;
+	text-decoration: none;	
+}
+
+.footer__div__text--center2{
+  text-align: center;
+	margin: 10 px auto;
+	text-decoration: none;
+}
+.footer__img--redes{
+	width: 50px;
+}
+#footer__img--pagos{
+	width: 250px; 
+	left: 100px;
+}
+
+/* Fin Footer. desktop */
+
+/* Inicia Contacto. desktop */
+
+	.contenedor__padre--contacto{
+	display: grid;
+	grid-template-rows: 20vw  35vw 45vw ;
+	grid-template-rows: auto;
+	grid-template-areas: "nav nav nav" "header header header" "form form aside" "footer footer footer";
+}
+
+#mainNav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#formContacto{
+	grid-area: form;
+}
+
+#aside{
+	grid-area: aside;
+	margin-right:-222px;
+	margin-left: -222px;
+}
+
+#footer{
+	grid-area: footer;
+}
+.aside__flex--padre{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-self: space-around;
+	margin-top: 20vh;
+}
+
+aside img{
+			border-radius: 5px;
+			width: 28%;
+			height: auto;
+			background-color: none;
+			margin: 20px;
+			margin-top: 80px;
+			right: 20px ;
+			position: relative;
+			padding: 0 10px;
+}
+
+.legend__form--contacto{
+	font-size: 2.5rem;
+	font-family:'Anek Telugu', sans-serif;
+}
+
+.form__contacto{
+	width: 50%;
+	background-color: #232f3a;
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius:10px;
+	color: #fff;
+	box-shadow: 7px 13px 37px #000;
+}
+
+form ul{
+	list-style-type:none ;
+}
+
+.label__form--contacto{
+	font-size: 1.5rem;
+	font-family:'Anek Telugu', sans-serif;
+	padding: 10px;
+}
+	.form__registro--contacto{
+		font-size: 2rem;
+		margin-bottom: 20px;
+		font-family:'Anek Telugu', sans-serif;
+}
+
+	.form__inputs--contacto{
+		width: 100%;
+		padding: 10px;
+}
+
+	.form__li__promos--contacto{
+		margin-bottom: 20px;
+		margin-top: 15px;
+		overflow-y: hidden;
+}
+
+.form__bottons--contacto{
+	width: 100%;
+	background-color: #1649af;
+	border: none;
+	padding: 12px;
+	cursor: pointer;
+	color: #fff;
+	font-family:'Anek Telugu', sans-serif;
+	font-size: 1.5rem;
+	border-radius: 10px;
+}
+
+/* Fin Contacto. desktop */
+
+/* Inicia Libros. desktop */
+
+.main__div__table--libros{
+	 width: 98vw;
+	 margin:	50px auto;
+	 border: solid 2px black;
+}
+
+	
+.main__table--libros{
+   width: 100%;
+   background-color: #ddd;
+   text-align: left;
+   font-family: 'Anek Telugu', sans-serif;
+   color: black;
+   border-collapse: collapse;
+   font-size: 1.5rem;
+}
+
+/* Fin Libros. desktop */
+
+/* Inicia Locales . desktop */
+
+.main__div__form--locales{
+	 width: 900px;
+	 margin:	50px auto;
+	 border: solid 2px black;
+	 border-radius: 5px;
+	 font-size: 1.8rem;
+	 font-family: 'Anek Telugu', sans-serif;
+	background-color: #7171d6;
+	color: white;
+}
+
+	.main__h2__form--locales{
+		color: white;
+}
+
+.main__form__select--locales{
+	box-shadow: 0 10 px 25px rgba(0, 0, 0, 0.1);
+	font-size: 1.5rem;
+	padding: 0.1em 1.5em;
+	background: #fafafa;
+	color: #484889;
+	border: 0;
+	display: inline-block;
+	margin: 0;
+}
+
+.main__table--locales{
+	 font-size: 1.5rem;
+}
+
+/* Fin Locales. desktop */
+
+/* Inicia Ofertas . desktop */
+
+#productos .galeria{
+	margin: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+	#productos .galeria figure{
+		text-align: center;
+		width:30% ;
+	}
+
+		#productos .galeria figure img{
+			border-radius: 5px;
+			width: 35vh;
+			height: 50vh;
+		}
+
+		#productos .galeria figure figcaption{
+			font-size: 2.0rem;
+			color: #f9f9f9 ;
+			margin-top: 10px;
+			padding: 10px 0;
+			background-color: #194f8f;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+
+		#productos .galeria p.price{
+			color: #0b2442;
+			padding-bottom: 10px;
+			background-color: #194f8f;
+			font-size: 1.5rem;
+			color: #f9f9f9 ;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+main section div{
+		box-sizing: border-box;
+		margin: 0 50px 0 50px;
+		padding: 0;
+		font-size: 16px;
+		font-family:'Anek Telugu', sans-serif;
+		background-color: #FFF;
+}
+
+.radio1{
+	display: inline-block;
+}
+
+.main__div__carrito--ofertas-y-compras{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.div__form__carrito--ofertas-y-compras{
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.div__form__carrito--ofertas-y-compras input[type="radio"],
+.div__form__carrito--ofertas-y-compras input[type="checkbox"]{
+		display: none;
+}
+	.checkbox1{
+		display: inline-block;
+
+}
+
+
+	.div__form__carrito--ofertas-y-compras .radio label,
+	.div__form__carrito--ofertas-y-compras .checkbox label{
+		color: #0074d9;
+		padding: 5px 15px 5px 51px;
+		display: inline-block;
+		position: relative;
+		font-size: 1em;
+		border-radius: 3px;
+		cursor: pointer;
+		-webkit-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease ;	
+	}
+
+	.div__form__carrito--ofertas-y-compras .radio label:hover,
+	.div__form__carrito--ofertas-y-compras .checkbox label:hover{
+		background-color: rgba(0, 116, 217, 0.1);
+	}
+
+	.div__form__carrito--ofertas-y-compras .radio label:before,
+	.div__form__carrito--ofertas-y-compras .checkbox label:before{
+		content: "";
+		width: 17px;
+		height: 17px;
+		display: inline-block;
+		background-color: none;
+		border: 3px solid #0074d9;
+		border-radius: 50%;
+		position: absolute;
+		left: 17px;
+	}
+
+	.div__form__carrito--ofertas-y-compras .checkbox label:before{
+		border-radius: 3px;
+	}
+
+	.div__form__carrito--ofertas-y-compras input[type="radio"]:checked + label,
+	.div__form__carrito--ofertas-y-compras input[type="checkbox"]:checked +label{
+		padding: 5px 25px;
+		background-color: #0074d9;
+		border-radius: 2px;
+		color: #fff;
+	}
+
+	.div__form__carrito--ofertas-y-compras input[type="radio"]:checked + label:before,
+	.div__form__carrito--ofertas-y-compras input[type="checkbox"]:checked +label:before{
+		display: none;
+	}
+
+	.form__legend--ofertas-y-compras{
+		color: #194f9f;
+		font-family:'Anek Telugu', sans-serif;
+		font-size: 2.5rem;
+}
+
+.form__input__bottom--ofertas-y-compras{
+	background-color: rgba(0, 116, 217, 0.1);
+	display: inline-block;
+	color: #194f9f;
+	padding: 1px 24px;
+	font-family:'Anek Telugu', sans-serif;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: auto;
+	text-decoration: none;
+	margin: 0;
+	transition-duration: 0.4s;
+}
+
+.form__input__bottom--ofertas-y-compras:hover {
+  background-color: #194f9f;;
+  color: #fff;
+}
+
+/* Fin Ofers. desktop */
+
+}
+/* Fin maquetdo sitio web El baul del libro usado */
