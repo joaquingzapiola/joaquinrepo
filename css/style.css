@@ -1275,7 +1275,7 @@ footer{
 	float: right;
 	display: flex;
 	border: black 3px solid;
-	border-image:linear-gradient(to bottom, #8a2be2, #483d8b) 1 100%;
+	border-image:linear-gradient(to bottom, #8a2be2, #473d8b) 1 100%;
 }
 
 .footer__div__text--left{
