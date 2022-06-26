@@ -132,9 +132,9 @@ nav{
 
 
 .nav__div--logo img{
-	width: 200px;
-	margin-top: 30px;
-  margin-bottom: 30px;
+	width: 60vw;
+	margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .nav__menu--index{
@@ -1083,7 +1083,7 @@ nav{
 
 nav form{
 	text-align: right;
-	margin: 0px 10px;
+	margin: 0px 3vw;
 }
     nav form img{
     	float:right ;
@@ -1219,6 +1219,10 @@ main h2{
 	padding-bottom: 5px;
 }
 
+.aside__index--mejora{
+	overflow-x: visible !important;
+}
+
 /* Fin Aside. desktop*/
 
 
@@ -1311,8 +1315,8 @@ footer{
 
 #aside{
 	grid-area: aside;
-	margin-right:-222px;
-	margin-left: -222px;
+	margin-right:-20vw;
+	margin-left: -35vw;
 }
 
 #footer{
@@ -1323,7 +1327,6 @@ footer{
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-self: space-around;
-	margin-top: 20vh;
 }
 
 aside img{
@@ -1400,7 +1403,7 @@ form ul{
 .main__div__table--libros{
 	 width: 98vw;
 	 margin:	50px auto;
-	 border: solid 2px black;
+	 border: solid 2px #000;
 }
 
 	
@@ -1409,7 +1412,7 @@ form ul{
    background-color: #ddd;
    text-align: left;
    font-family: 'Anek Telugu', sans-serif;
-   color: black;
+   color: #000;
    border-collapse: collapse;
    font-size: 1.5rem;
 }
@@ -1421,7 +1424,7 @@ form ul{
 .main__div__form--locales{
 	 width: 900px;
 	 margin:	50px auto;
-	 border: solid 2px black;
+	 border: solid 2px #000;
 	 border-radius: 5px;
 	 font-size: 1.8rem;
 	 font-family: 'Anek Telugu', sans-serif;
