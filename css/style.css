@@ -17,7 +17,7 @@
 
 .body__encabezado--info{
   text-align: center;
-  color: black;
+  color: #000;
   background-color: #fff;
   font-weight: 500;
   letter-spacing: -0.1rem;
@@ -163,7 +163,7 @@ nav{
 		}
 			nav ul li a{
 				 display: block;
-         color: white;
+         color: #ffffff;
          text-align: center;
          padding: 5px 16px;
          text-decoration: none;
@@ -187,7 +187,7 @@ nav form{
          nav form label{
 	         font-family: 'Anek Telugu', sans-serif;
 	         font-size: 1.2rem;
-	         color: white;
+	         color: #ffffff;
 }
 
 /* Fin Nav. Igual en todo el sitio */
@@ -241,7 +241,7 @@ nav form{
 .body__form--button{
 	background-color: rgb(30, 38, 38);
   border: none;
-  color: white;
+  color: #ffffff;
   padding:1px 24px;
   text-align: auto;
   text-decoration: none;
@@ -255,7 +255,7 @@ nav form{
 }
 
 .body__form__button--click:hover {
-  background-color: white;;
+  background-color: #ffffff;;
   color: #555555;
 }
 
@@ -343,7 +343,7 @@ main h2{
   font-size: 1.5rem;
   left: 30px;
   background-color: rgb(30,38,38);
-  color: white;
+  color: #ffffff;
   border: 2px	solid rgb(30,38,38)	;
   box-shadow: 7px 13px 37px #728a7c;
 }
@@ -357,7 +357,7 @@ main h2{
       font-size: 1.5rem;
       left: 30px;
       background-color: rgb(30,38,38);
-      color: white;
+      color: #ffffff;
       border: 2px	solid rgb(30,38,38)	;
       box-shadow: 7px 13px 37px #ffea7a;
 		}
@@ -370,7 +370,7 @@ main h2{
 .aside__ad__index{
 	text-align: center;
 	margin: 60px;
-	border: black 10px solid;
+	border: #000 10px solid;
 	padding: 30px;
 	border-image: linear-gradient(to left,blueviolet, darkslateblue, darkblue) 1 0;
 }
@@ -385,7 +385,7 @@ main h2{
 	width: 90vw;
 	margin-top: 0;
 	margin-right: 100px;
-	border: black 3px solid;
+	border: #000 3px solid;
 	border-image: linear-gradient(to left,blueviolet, darkslateblue, darkblue) 1 0;
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -398,10 +398,10 @@ main h2{
 footer{
 	margin:10px;
 	padding: 10px 5px;
-	border: black 4px solid;
+	border: #000 4px solid;
 	width: 95%;
 	box-sizing: border-box;
-	background-color:white;
+	background-color:#ffffff;
 	font-family: 'Anek Telugu', sans-serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -421,20 +421,20 @@ footer{
 
 .footer__div__text--right{
 	display: flex;
-	border: black 3px solid;
+	border: #000 3px solid;
 	border-image:linear-gradient(to bottom, blueviolet, darkslateblue) 1 100%;
 }
 
 .footer__div__text--left{
 	text-align: left;
 	display: flex;
-	background-color: white;
+	background-color: #ffffff;
 }
 
 .footer__div__text--left2{
 	text-align: left;
 	display: flex;
-	background-color: white;
+	background-color: #ffffff;
 }
 
 .footer__div__text--center{
@@ -528,7 +528,7 @@ footer{
 .main__div__table--libros{
 	 width: 98vw;
 	 margin:	50px auto;
-	 border: solid 2px black;
+	 border: solid 2px #000;
 }
 
 	
@@ -543,12 +543,12 @@ footer{
 }
 
 .tr__table--libros:nth-child(even){
-	background-color: whitesmoke;
+	background-color: #f5f5f5;
 	color: black;
 }
 .tr__table--libros:hover .td__table--libros{
 	background-color: #369681;
-	color: white;
+	color: #ffffff;
 }
 	th, td{
 		padding: 20px;
@@ -557,7 +557,7 @@ footer{
  .th__table--libros{
  	background-color: #015959 ;
  	border-bottom: solid 5px black;
- 	color: white;
+ 	color: #ffffff;
  }
 
  /* Fin Main de libros.html */
@@ -595,17 +595,17 @@ footer{
  .main__div__form--locales{
 	 width: 98vw;
 	 margin:	5px auto;
-	 border: solid 2px black;
+	 border: solid 2px #000;
 	 border-radius: 5px;
 	 font-size: 1.5rem;
 	 font-family: 'Anek Telugu', sans-serif;
 	background-color: #7171d6;
-	color: white;
+	color: #ffffff;
 	padding-bottom: 10px;
 }
 
 	.main__h2__form--locales{
-		color: white;
+		color: #ffffff;
 }
 
 .main__form__select--locales{
@@ -634,7 +634,7 @@ footer{
 	 border: solid 2px black;
 	 font-size: 1.5rem;
 	 font-family: 'Anek Telugu', sans-serif;
-	 color: white;
+	 color: #ffffff;
 }
 
 .main__table--locales{
@@ -650,16 +650,16 @@ footer{
 .th__table--locales{
  	background-color: #49498a ;
  	border-bottom: solid 5px black;
- 	color: white;
+ 	color: #ffffff;
  }
 
 .tr__table--locales:nth-child(even){
-	background-color: whitesmoke;
+	background-color: #f5f5f5;
 	color: black;
 }
 .tr__table--locales:hover .td__table--libros{
 	background-color: #7171d6;
-	color: white;
+	color: #ffffff;
 }
 	th, td{
 		padding: 20px;
@@ -1065,7 +1065,7 @@ nav{
 		}
 			nav ul li a{
 				 display: block;
-         color: white;
+         color: #ffffff;
          text-align: center;
          padding: 5px 16px;
          text-decoration: none;
@@ -1091,7 +1091,7 @@ nav form{
          nav form label{
 	         font-family: 'Anek Telugu', sans-serif;
 	         font-size: 1.5rem;
-	         color: white;
+	         color: #ffffff;
 }
 
 /* Fin Nav. desktop */
@@ -1187,7 +1187,7 @@ main h2{
       font-size: 1.5rem;
       left: 30px;
       background-color: rgb(30,38,38);
-      color: white;
+      color: #ffffff;
       border: 2px	solid rgb(30,38,38)	;
       box-shadow: 7px 13px 37px #ffea7a;
 		}
@@ -1200,7 +1200,7 @@ main h2{
   font-size: 1.5rem;
   left: 30px;
   background-color: rgb(30,38,38);
-  color: white;
+  color: #ffffff;
   border: 2px	solid rgb(30,38,38)	;
   box-shadow: 7px 13px 37px #728a7c;
 }
@@ -1213,7 +1213,7 @@ main h2{
 	width: 12vw;
 	margin-top: 40vh;
 	margin-right: 100px;
-	border: black 3px solid;
+	border: #000 3px solid;
 	border-image: linear-gradient(to left,blueviolet, darkslateblue, darkblue) 1 0;
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -1231,10 +1231,10 @@ main h2{
 footer{
 	margin:10px;
 	padding: 10px 5px;
-	border: black 4px solid;
+	border: #000 4px solid;
 	width: 98.5%;
 	box-sizing: border-box;
-	background-color:white;
+	background-color:#ffffff;
 	font-family: 'Anek Telugu', sans-serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -1255,35 +1255,35 @@ footer{
 .footer__div__text--right{
 	float: right;
 	display: flex;
-	border: black 3px solid;
+	border: #000 3px solid;
 	border-image:linear-gradient(to bottom, blueviolet, darkslateblue) 1 100%;
 }
 
 .footer__div__text--left{
 	text-align: left;
 	display: flex;
-	background-color: white;
+	background-color: #ffffff;
 }
 
 .footer__div__text--left2{
 	text-align: left;
 	display: flex;
-	background-color: white;
+	background-color: #ffffff;
 }
 
 .footer__div__text--center{
   text-align: center;
-	margin: 10 px auto;
+	margin: 0 px auto;
 	text-decoration: none;	
 }
 
 .footer__div__text--center2{
   text-align: center;
-	margin: 10 px auto;
+	margin: 0 px auto;
 	text-decoration: none;
 }
 .footer__img--redes{
-	width: 50px;
+	width: 3vw;
 }
 #footer__img--pagos{
 	width: 250px; 
@@ -1429,11 +1429,11 @@ form ul{
 	 font-size: 1.8rem;
 	 font-family: 'Anek Telugu', sans-serif;
 	background-color: #7171d6;
-	color: white;
+	color: #ffffff;
 }
 
 	.main__h2__form--locales{
-		color: white;
+		color: #ffffff;
 }
 
 .main__form__select--locales{
