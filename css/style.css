@@ -1102,14 +1102,15 @@ header{
 	animation-name: header__animation;
 	animation-duration: 10s;
 	height: 60vh;
+	widows: 100%;
 	animation-iteration-count: infinite;
 	border: 4px solid #ccccca;
 	padding: auto;
 	margin-bottom: 20px;
 	background-color: #ccccca;
 	background-size: cover;
-	box-sizing: border-box;
 	animation-timing-function: ease-in;
+	box-sizing: border-box;
 }
 
 .header__img__heroe--xxl{
