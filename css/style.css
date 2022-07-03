@@ -98,8 +98,8 @@
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-self: space-around;
 	margin-top: 20vh;
+	
 }
 
 /* Fin etiquetas para el desafío */
@@ -157,7 +157,7 @@ nav{
 }
 	nav ul{
 		list-style: none;
-		margin: 2px,2px;
+		margin: 2px 2px;
 		padding: 0;
 		overflow: hidden;
     background-color:rgb(2, 53, 53);
