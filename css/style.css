@@ -17,7 +17,7 @@
 
 .body__encabezado--info{
   text-align: center;
-  color: #000;
+  color: rgb(0, 0, 0);
   background-color: #fff;
   font-weight: 500;
   letter-spacing: -0.1rem;
@@ -930,8 +930,8 @@ footer{
 }
 
 .form__input__bottom--ofertas-y-compras:hover {
-  background-color: #194f9f;;
-  color: #fff;
+background-color: #194f9f;;
+color: #fff;
 }
 
 /* Fin table de locales.html */
