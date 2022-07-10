@@ -33,7 +33,7 @@ nav{
         border: 2px solid #e7e7e7;;
         text-align: center;
         display: flex;
-        color: #ffffff;
+        color: $white;
         li{
           	border-right: 1px solid #bbb;
 		    border-left: 1px solid #bbb;
@@ -59,7 +59,27 @@ nav{
     .active{
 	    background-color: rgb(1, 89, 89);
 	    color: $white;
+    }
+    .nav-item{
+        color: $white;
+  	}
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+        color: $white;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: $white;
+        padding-right: 1.3rem;
+	  	padding-left: 1.3rem;
+	}
+    .nav-link {
+        color: $white;
+        padding-right: 1.3rem;
+        padding-left: 1.3rem;
     } 
+    .navbar-nav{
+	    color: $white;
+    }
+
     form{
 	    text-align: right;
 	    margin: 0px 10px;

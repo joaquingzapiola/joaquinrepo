@@ -1,3 +1,5 @@
+
+@media (max-width: 400px){
 .contenedor__padre--index{
 	display: grid;
 	grid-template-columns: 1fr;
@@ -20,7 +22,38 @@
 #aside{
 	grid-area: asideIndex;
 }
+}
 
 #footer{
 	grid-area: footer;
+}
+
+@media (min-width: 1200px){
+
+.contenedor__padre--index{
+	display: grid;
+	grid-template-rows: 20vw  35vw 45vw ;
+	grid-template-rows: auto;
+	grid-template-areas: "nav nav nav" "header header header" "mainIndex mainIndex asideIndex" "footer footer footer";
+}
+
+#mainNav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#mainIndex{
+	grid-area: mainIndex;
+}
+
+#aside{
+	grid-area: asideIndex;
+}
+
+#footer{
+	grid-area: footer;
+}
 }
