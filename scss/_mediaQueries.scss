@@ -264,17 +264,17 @@ section{
 //Inicia Aside
 
 aside{
-.aside__ad__img--tamaño{
-	height: auto;
-	width: 12vw;
-	margin-top: 40vh;
-	margin-right: 100px;
-	border: #000 3px solid;
-	border-image: linear-gradient(to left,blueviolet, darkslateblue, darkblue) 1 0;
-	border-image: linear-gradient(to left,#8a2be2, #483d8b, #00008b) 1 0;
-	padding-top: 10px;
-	padding-bottom: 5px;
-}
+  .aside__ad__img--tamaño{
+	  height: auto;
+	  width: 12vw;
+	  margin-top: 40vh;
+	  margin-right: 100px;
+	  border: #000 3px solid;
+	  border-image: linear-gradient(to left,blueviolet, darkslateblue, darkblue) 1 0;
+	  border-image: linear-gradient(to left,#8a2be2, #483d8b, #00008b) 1 0;
+	  padding-top: 10px;
+	  padding-bottom: 5px;
+  }
 }
 //Inicia Footer
 
