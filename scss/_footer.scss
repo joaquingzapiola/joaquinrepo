@@ -1,0 +1,35 @@
+//Footer
+
+div{
+	#footer{
+	    grid-area: footer;
+    }
+    .page-item{
+	background-color: #ffffff;
+	border: 1px;
+	    .page-link{
+			background-color: #1e2626;
+			border: 1px;
+			color: #ffffff;
+			font-family: 'Anek Telugu', sans-serif;
+			font-size: 1.6rem;
+	    }  
+    }
+}
+footer{
+	margin:10px;
+	padding: 10px 5px;
+	border: #000 px solid;
+	width: 95%;
+	box-sizing: border-box;
+	background-color:#ffffff;
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-weight: 500;
+	text-decoration: none;
+	color: #551a8b;
+	.footer__img--redes{
+	    width: 50px;
+    }
+}

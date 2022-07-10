@@ -1,0 +1,26 @@
+.body__encabezado--info{
+  text-align: center;
+  color: $black;
+  background-color: $white;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+  font-size: $textSmEm;
+  font-family: 'Anek Telugu', sans-serif;
+  padding: 6px 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Anek Telugu', sans-serif;
+}
+body main{
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Anek Telugu', sans-serif;
+}
+main h2{
+  color: rgb(41, 57, 64);
+  font-size: 2.5rem;
+  margin: 0;
+  overflow-y: hidden;
+  font-family: 'Anek Telugu', sans-serif;
+}

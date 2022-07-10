@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: rgb(166, 138, 123);
+  width: 100%;
+  height: auto;
+  border: solid 4px rgb(166, 138, 123);
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+}
+nav .navbar-nav {
+  color: #ffffff;
+}
+nav .navbar-nav .nav-link {
+  color: #ffffff;
+  padding-right: 1.3rem;
+  padding-left: 1.3rem;
+}
+nav ul {
+  list-style: none;
+  margin: 2px 2px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(2, 53, 53);
+  width: auto;
+  border: 2px solid #e7e7e7;
+  text-align: center;
+  display: flex;
+  color: #ffffff;
+}
+nav ul li {
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  display: inline-block;
+  color: #ffffff;
+}
+nav ul li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0px;
+}
+nav ul li a:hover:not(.active) {
+  background-color: rgb(53, 53, 100);
+  transition-duration: 0.3s;
+  color: #ffffff;
+}
+nav ul li a:active {
+  background-color: rgb(1, 89, 89);
+  color: #ffffff;
+}
+nav form {
+  text-align: right;
+  margin: 0px 10px;
+}
+nav form button .btn {
+  padding-right: 1.5rem;
+}
+nav form button .btn-outline-success {
+  color: #fff;
+  background-color: #1e2626;
+  font-size: 1.2rem;
+}
+nav form button .btn-outline-success {
+  border-color: #1e2626;
+}
+nav form button .body__form--button {
+  background-color: rgb(30, 38, 38);
+  border: none;
+  color: #ffffff;
+  padding: 1px;
+  padding-top: 4px;
+  padding-left: 24px;
+  padding-right: 35px;
+  text-align: auto;
+  text-decoration: none;
+  font-family: "Anek Telugu", sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 13px;
+  margin: 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+nav form button .body__form__button--click:hover {
+  background-color: #ffffff;
+  color: #555555;
+}
+nav form .d-flex {
+  margin: 2vh 0;
+}
+nav form .d-flex input .form-control {
+  font-size: 1.3rem;
+}
+nav form label {
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+nav img {
+  width: 58vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 10.5vh;
+}
+nav .navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+nav .navbar .container-fluid {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+nav .navbar .container-fluid .navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+nav .navbar .container-fluid .navbar-collapse {
+  margin: 0 9vw;
+}
+
+.contenedor__padre--index {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "nav" "header" "mainIndex" "asideIndex" "footer";
+}
+
+#mainNav {
+  grid-area: nav;
+}
+
+#header {
+  grid-area: header;
+}
+
+#mainIndex {
+  grid-area: mainIndex;
+}
+
+#aside {
+  grid-area: asideIndex;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+.body__encabezado--info {
+  text-align: center;
+  color: #000;
+  background-color: #ffffff;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+  font-size: 1.5em;
+  font-family: "Anek Telugu", sans-serif;
+  padding: 6px 0px;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+html{
+ 	font-size: 62.5%;
+}
+
+h1,
+h2{
+	font-family: $mainFont;
+}
+
+h1{
+	color: rgb(30,38,38);
+	font-size: 4rem;
+	margin: 0px;
+	text-align: center;
+}
