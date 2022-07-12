@@ -60,6 +60,10 @@ nav{
 	    background-color: rgb(1, 89, 89);
 	    color: $white;
     }
+
+    .navbar-collapse{
+                margin: 0 9vw;
+            }
     .nav-item{
         color: $white;
   	}
@@ -82,19 +86,25 @@ nav{
 
     form{
 	    text-align: right;
-	    margin: 0px 10px;
+	    margin-top: 2vh;
+	    margin-bottom: 1vh;
+	    .d-flex{
+		    margin: 2vh 0;
+		    input{
+		        .form-control{
+		            font-size: 1.3rem;
+                }
+		    }
+        }
+        .rounded {
+            border-radius: 0.5rem !important;
+        }
+
 	    button{
 	    	.btn{
 	            padding-right: 1.5rem;
             }
-            .btn-outline-success {
-                color: #fff;
-                background-color: #1e2626;
-                font-size: 1.2rem;
-            }
-            .btn-outline-success {
-                border-color: #1e2626;
-            }
+            
             .body__form--button{
 	            background-color: rgb(30, 38, 38);
 			    border: none;
@@ -113,24 +123,7 @@ nav{
 				transition-duration: 0.4s;
 				cursor: pointer;
 			}
-			.body__form__button--click:hover {
-                background-color: #ffffff;;
-                color: #555555;
-            }
 		}    
-	    .d-flex{
-		    margin: 2vh 0;
-		    input{
-		        .form-control{
-		            font-size: 1.3rem;
-                }
-		    }
-        }
-	    label{
-	        font-family: 'Anek Telugu', sans-serif;
-	        font-size: 1.2rem;
-	        color: #ffffff;
-	    }
     }
 
 	.navbar{
@@ -155,9 +148,7 @@ nav{
                 text-decoration: none;
                 white-space: nowrap;    
 			}
-			.navbar-collapse{
-                margin: 0 9vw;
-            }	
+				
         }                           
     }     
 }
