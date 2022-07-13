@@ -461,6 +461,14 @@ h1 {
     animation-timing-function: ease-in;
     box-sizing: border-box;
     margin-top: -15vh; }
+    header .header__img__heroe--xxl {
+      width: 100%;
+      height: 60vh;
+      border: 4px solid #ccccca;
+      padding: auto;
+      margin-bottom: 20px;
+      background-color: #ccccca;
+      box-sizing: border-box; }
   @keyframes header__animation {
     0% {
       background-image: url(../img/header-copia.jpg); }
@@ -472,14 +480,6 @@ h1 {
       background-image: url(../img/header44.jpg); }
     100% {
       background-image: url(../img/header55.jpg); } }
-  .header__img__heroe--xxl {
-    width: 100%;
-    height: 60vh;
-    border: 4px solid #ccccca;
-    padding: auto;
-    margin-bottom: 20px;
-    background-color: #ccccca;
-    box-sizing: border-box; }
   h1,
   h2 {
     font-family: 'Anek Telugu', sans-serif; }
@@ -491,9 +491,9 @@ h1 {
   body main {
     box-sizing: border-box;
     text-align: center; }
-  main h2 {
-    color: #293940;
-    font-size: 3rem; }
+    body main h2 {
+      color: #293940;
+      font-size: 3rem; }
   .main__index__titulo--h1 {
     display: inline-block;
     margin-top: 5px;
@@ -553,7 +553,7 @@ h1 {
   aside .aside__ad__img--tamaño {
     height: auto;
     width: 12vw;
-    margin-top: 40vh;
+    margin-top: 46vh;
     margin-right: 100px;
     border: #000 3px solid;
     border-image: linear-gradient(to left, blueviolet, darkslateblue, darkblue) 1 0;
@@ -583,7 +583,7 @@ h1 {
     width: 100vw;
     box-sizing: border-box;
     background-color: #ffffff;
-    font-family: 'Anek Telugu', sans-serif;
+    font-family: "Anek Telugu", sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: 500;
