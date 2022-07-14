@@ -1,5 +1,26 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500&display=swap");
+.btn, .body__form--button {
+  padding-right: 1.5rem; }
+
+.body__form--button {
+  background-color: #1e2626;
+  border: none;
+  color: .body__form--button white;
+  padding: 1px;
+  padding-top: 4px;
+  padding-left: 24px;
+  padding-right: 35px;
+  text-align: auto;
+  text-decoration: none;
+  font-family: "Anek Telugu", sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 13px;
+  margin: 0;
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
 .body__encabezado--info {
   text-align: center;
   color: #000;
@@ -135,7 +156,7 @@ nav {
         font-size: 1.3rem; }
     nav form .rounded {
       border-radius: 0.5rem !important; }
-    nav form button .btn {
+    nav form button .btn, nav form button .body__form--button {
       padding-right: 1.5rem; }
     nav form button .body__form--button {
       background-color: #1e2626;
@@ -565,7 +586,7 @@ h1 {
   h5 {
     overflow-y: hidden;
     font-size: 1.4rem; }
-  footer .btn-group-lg > .btn, .btn-lg {
+  footer .btn-group-lg > .btn, footer .btn-group-lg > .body__form--button, .btn-lg {
     padding: .5rem 1rem;
     padding-right: 1rem;
     font-size: 1.25rem;

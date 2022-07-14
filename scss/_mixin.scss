@@ -1,0 +1,29 @@
+//Extends
+
+.btn{
+    padding-right: 1.5rem;
+}
+            
+.body__form--button{
+	@extend .btn;
+	background-color: $thirdColor;
+	border: none;
+	color: &white;
+	padding: 1px;
+	padding-top: 4px;
+	padding-left: 24px;
+	padding-right: 35px;
+	text-align: auto;
+	text-decoration: none;
+	font-family: $mainFont ;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 13px;
+	margin: 0;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+
+//mixin
+
