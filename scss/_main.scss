@@ -12,8 +12,8 @@ main{
         overflow-y: hidden;
     }
     .index__subtitulo--centrado{
-	    color: rgb(30,38,38);
-	    font-size: 2.5rem;
+	    color: $thirdColor;
+	    font-size: $textMdd;
 	    margin: 0px;
 	    text-align: center;
 	    overflow-y: hidden;
@@ -49,29 +49,29 @@ main{
 				}
 				.figcaptionGreen{
 					text-align: center;
-					padding: 1px;
+					padding: 2px;
 				  	margin: 15% auto;
 				  	width: 100%;
 				    height: 10%;
-				    font-size: 1.5rem;
+				    font-size: $textSm;
 				    left: 30px;
-				    background-color: rgb(30,38,38);
-				    color: #ffffff;
-				    border: 2px	solid rgb(30,38,38)	;
-				    box-shadow: 7px 13px 37px #728a7c;
+				    background-color: $thirdColor;
+				    color: $white;
+				    border: 2px	solid $thirdColor;
+				    box-shadow: 7px 13px 37px $fourthColor;
 				}
 				figcaption{
 					text-align: center;
-					padding: 1px;
+					padding: 2px;
 				    margin: 15% auto;
 				    width: 100%;
 				    height: auto;
-				    font-size: 1.5rem;
+				    font-size: $textSm;
 				    left: 30px;
-				    background-color: rgb(30,38,38);
-				    color: #ffffff;
-				    border: 2px	solid rgb(30,38,38)	;
-				    box-shadow: 7px 13px 37px #ffea7a;
+				    background-color: $thirdColor;
+				    color: $white;
+				    border: 2px	solid $thirdColor	;
+				    box-shadow: 7px 13px 37px $fifthColor;
 				}
 			}
 
@@ -82,7 +82,7 @@ main{
     	.section{
 		    margin-right: 0px;
 		.page-item{
-	        background-color: #ffffff; 
+	        background-color: $white; 
 	        border: 1px;
         }
 
