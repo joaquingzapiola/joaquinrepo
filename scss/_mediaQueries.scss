@@ -330,4 +330,24 @@ footer{
 	color: #551a8b;
 	margin-left: -8px;
 }
+
+
+//Libros
+
+	section{
+		.main__div__table--libros{
+		 width: 98vw;
+		 margin:	50px auto;
+		 border: solid 2px #000;
+		 .main__table--libros{
+		    width: 100%;
+		    background-color: #ddd;
+	      text-align: left;
+	      font-family: 'Anek Telugu', sans-serif;
+	      color: #000;
+		    border-collapse: collapse;
+		    font-size: 1.5rem;
+      }
+	  }
+  }
 }
