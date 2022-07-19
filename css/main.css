@@ -270,7 +270,7 @@ section .main__div__table--locales {
   padding: 5px 25px;
   background-color: #0074d9;
   border-radius: 2px;
-  color: #fff; }
+  color: #ffffff; }
 
 .div__form__carrito--ofertas-y-compras input[type="radio"]:checked + label:before,
 .div__form__carrito--ofertas-y-compras input[type="checkbox"]:checked + label:before {
@@ -894,9 +894,37 @@ h1 {
     font-size: 1.5rem;
     padding: 0.1em 1.5em;
     background: #fafafa;
-    color: #484889;
+    color: #49498a;
     border: 0;
     display: inline-block;
     margin: 0; }
   .main__table--locales {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  #productos .galeria {
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    #productos .galeria figure {
+      text-align: center;
+      width: 30%; }
+      #productos .galeria figure img {
+        border-radius: 5px;
+        width: 35vh;
+        height: 50vh; }
+      #productos .galeria figure figcaption {
+        font-size: 2.0rem;
+        color: #f9f9f9;
+        margin-top: 10px;
+        padding: 10px 10px;
+        background-color: #194f8f;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; }
+    #productos .galeria p.price {
+      color: #0b2442;
+      padding-bottom: 10px;
+      background-color: #194f8f;
+      font-size: 1.5rem;
+      color: #f9f9f9;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px; } }
