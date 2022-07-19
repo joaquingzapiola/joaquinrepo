@@ -350,4 +350,38 @@ footer{
       }
 	  }
   }
+
+
+//Locales
+
+.main__div__form--locales{
+	 width: 900px;
+	 margin:	50px auto;
+	 border: solid 2px $black;
+	 border-radius: 5px;
+	 font-size: 1.8rem;
+	 font-family: 'Anek Telugu', sans-serif;
+	background-color: #7171d6;
+	color: $white;
+}
+
+	.main__h2__form--locales{
+		color: $white;
+}
+
+.main__form__select--locales{
+	box-shadow: 0 10 px 25px rgba(0, 0, 0, 0.1);
+	font-size: 1.5rem;
+	padding: 0.1em 1.5em;
+	background: #fafafa;
+	color: #484889;
+	border: 0;
+	display: inline-block;
+	margin: 0;
+}
+
+.main__table--locales{
+	 font-size: 1.5rem;
+}
+
 }
