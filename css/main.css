@@ -299,6 +299,80 @@ section .main__div__table--locales {
   background-color: #194f9f;
   color: #fff; }
 
+.aside__flex--padre {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-self: center;
+  align-items: center;
+  margin-top: 10vh; }
+
+aside img {
+  border-radius: 5px;
+  width: 50%;
+  height: auto;
+  background-color: none;
+  margin: 20px;
+  margin-top: 80px;
+  right: 20px;
+  padding: 0 10px; }
+
+.legend__form--contacto {
+  font-size: 1.5rem;
+  font-family: 'Anek Telugu', sans-serif;
+  margin-top: 10px;
+  margin-bottom: -25px; }
+
+.form__contacto {
+  width: 97%;
+  background-color: #232f3a;
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  color: #fff; }
+
+form ul {
+  list-style-type: none;
+  padding-left: 0; }
+
+.label__form--contacto {
+  font-size: 1.5rem;
+  font-family: 'Anek Telugu', sans-serif;
+  padding: 10px;
+  display: inline-flex; }
+
+.form__registro--contacto {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  font-family: 'Anek Telugu', sans-serif;
+  overflow-y: hidden; }
+
+.form__inputs--contacto {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5rem; }
+
+.form__li__promos--contacto {
+  margin-bottom: 2.5vh;
+  margin-top: 5px;
+  overflow-y: hidden; }
+
+.form__bottons--contacto {
+  width: 100%;
+  background-color: #1649af;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Anek Telugu', sans-serif;
+  font-size: 1.5rem;
+  border-radius: 10px; }
+
+.option--md {
+  font-size: 1.5rem; }
+
 @media (max-width: 400px) {
   .contenedor__padre--index {
     display: grid;
@@ -999,4 +1073,78 @@ h1 {
     transition-duration: 0.4s; }
     .form__input__bottom--ofertas-y-compras .form__input__bottom--ofertas-y-compras:hover {
       background-color: #194f9f;
-      color: #ffffff; } }
+      color: #ffffff; }
+  .contenedor__padre--contacto {
+    display: grid;
+    grid-template-rows: 20vw  35vw 45vw;
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav nav" "header header header" "form form aside" "footer footer footer"; }
+  #mainNav {
+    grid-area: nav; }
+  #header {
+    grid-area: header; }
+  #formContacto {
+    grid-area: form; }
+  #aside {
+    grid-area: aside;
+    margin-right: -20vw;
+    margin-left: -35vw;
+    margin-top: 45vh; }
+  #footer {
+    grid-area: footer; }
+  .aside__flex--padre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-self: space-around; }
+  aside img {
+    border-radius: 5px;
+    width: 28%;
+    height: auto;
+    background-color: none;
+    margin: 20px;
+    margin-top: 80px;
+    right: 20px;
+    position: relative;
+    padding: 0 10px; }
+  .legend__form--contacto {
+    font-size: 2rem;
+    font-family: "Anek Telugu", sans-serif;
+    padding-bottom: 8vh; }
+  .form__contacto {
+    width: 50%;
+    background-color: #232f3a;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 7px 13px 37px #000; }
+    .form__contacto .form__li__promos--contacto {
+      margin-bottom: 20px;
+      margin-top: 15px;
+      overflow-y: hidden; }
+      .form__contacto .form__li__promos--contacto .form__registro--contacto {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-family: "Anek Telugu", sans-serif; }
+    .form__contacto .label__form--contacto {
+      font-size: 1.5rem;
+      font-family: "Anek Telugu", sans-serif;
+      padding: 10px; }
+      .form__contacto .label__form--contacto .form__bottons--contacto {
+        width: 100%;
+        background-color: #1649af;
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: "Anek Telugu", sans-serif;
+        font-size: 1.5rem;
+        border-radius: 10px; }
+  form ul {
+    list-style-type: none; }
+  .form__inputs--contacto {
+    width: 100%;
+    padding: 10px; } }

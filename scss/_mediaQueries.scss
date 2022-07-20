@@ -509,4 +509,113 @@ footer{
 }
 
 
+//Contacto
+
+.contenedor__padre--contacto{
+	display: grid;
+	grid-template-rows: 20vw  35vw 45vw ;
+	grid-template-rows: auto;
+	grid-template-areas: "nav nav nav" "header header header" "form form aside" "footer footer footer";
+}
+
+#mainNav{
+	grid-area: nav;
+}
+
+#header{
+	grid-area: header;
+}
+
+#formContacto{
+	grid-area: form;
+}
+
+#aside{
+	grid-area: aside;
+	margin-right:-20vw;
+	margin-left: -35vw;
+	margin-top: 45vh;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+.aside__flex--padre{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-self: space-around;
+}
+
+aside img{
+	border-radius: 5px;
+	width: 28%;
+	height: auto;
+	background-color: none;
+	margin: 20px;
+	margin-top: 80px;
+	right: 20px ;
+	position: relative;
+	padding: 0 10px;
+}
+
+
+.legend__form--contacto{
+	font-size: 2rem;
+	font-family:$mainFont;
+	padding-bottom: 8vh;
+}
+
+.form__contacto{
+	width: 50%;
+	background-color: #232f3a;
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius:10px;
+	color: #fff;
+	box-shadow: 7px 13px 37px $black;
+	.form__li__promos--contacto{
+		margin-bottom: 20px;
+		margin-top: 15px;
+		overflow-y: hidden;
+		.form__registro--contacto{
+		font-size: 2rem;
+		margin-bottom: 20px;
+		font-family:$mainFont;
+  }
+  }
+  .label__form--contacto{
+	  font-size: 1.5rem;
+	  font-family:$mainFont;
+	  padding: 10px;
+	  .form__bottons--contacto{
+	    width: 100%;
+	    background-color: #1649af;
+	    border: none;
+	    padding: 12px;
+	    cursor: pointer;
+	    color: $white;
+	    font-family:$mainFont;
+	    font-size: 1.5rem;
+	    border-radius: 10px;
+    }
+  }
+}
+
+form ul{
+	list-style-type:none ;
+}
+
+.form__inputs--contacto{
+	width: 100%;
+	padding: 10px;
+}
+
+
+
+
+
 }
