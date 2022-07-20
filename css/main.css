@@ -203,7 +203,7 @@ section .main__div__table--locales {
       font-size: 1.6rem;
       color: #f9f9f9;
       margin-top: 10px;
-      padding: 10px 0;
+      padding: 10px;
       background-color: #194f8f;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px; }
@@ -597,6 +597,12 @@ footer {
   footer .footer__img--redes {
     width: 50px; }
 
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  padding-top: 5px; }
+
 * {
   padding: 0;
   margin: 0;
@@ -927,4 +933,70 @@ h1 {
       font-size: 1.5rem;
       color: #f9f9f9;
       border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px; } }
+      border-bottom-right-radius: 10px; }
+  .main__div__carrito--ofertas-y-compras {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto; }
+    .main__div__carrito--ofertas-y-compras .div__form__carrito--ofertas-y-compras {
+      padding: 20px 0;
+      border-bottom: 1px solid #ccc; }
+      .main__div__carrito--ofertas-y-compras .div__form__carrito--ofertas-y-compras .radio1 {
+        display: inline-block; }
+  .div__form__carrito--ofertas-y-compras .radio label,
+  .div__form__carrito--ofertas-y-compras .checkbox label {
+    color: #0074d9;
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .div__form__carrito--ofertas-y-compras .radio label:hover,
+  .div__form__carrito--ofertas-y-compras .checkbox label:hover {
+    background-color: rgba(0, 116, 217, 0.1); }
+  .div__form__carrito--ofertas-y-compras .radio label:before,
+  .div__form__carrito--ofertas-y-compras .checkbox label:before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-color: none;
+    border: 3px solid #0074d9;
+    border-radius: 50%;
+    position: absolute;
+    left: 17px; }
+  .div__form__carrito--ofertas-y-compras .checkbox label:before {
+    border-radius: 3px; }
+  .div__form__carrito--ofertas-y-compras input[type="radio"]:checked + label,
+  .div__form__carrito--ofertas-y-compras input[type="checkbox"]:checked + label {
+    padding: 5px 25px;
+    background-color: #0074d9;
+    border-radius: 2px;
+    color: #ffffff; }
+  .div__form__carrito--ofertas-y-compras input[type="radio"]:checked + label:before,
+  .div__form__carrito--ofertas-y-compras input[type="checkbox"]:checked + label:before {
+    display: none; }
+  .form__legend--ofertas-y-compras {
+    color: #194f9f;
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 2.5rem; }
+  .form__input__bottom--ofertas-y-compras {
+    background-color: rgba(0, 116, 217, 0.1);
+    display: inline-block;
+    color: #194f9f;
+    padding: 1px 24px;
+    font-family: 'Anek Telugu', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: auto;
+    text-decoration: none;
+    margin: 0;
+    transition-duration: 0.4s; }
+    .form__input__bottom--ofertas-y-compras .form__input__bottom--ofertas-y-compras:hover {
+      background-color: #194f9f;
+      color: #ffffff; } }

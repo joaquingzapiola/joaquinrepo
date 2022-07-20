@@ -33,3 +33,10 @@ footer{
 	    width: 50px;
     }
 }
+
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  padding-top: 5px;
+}
