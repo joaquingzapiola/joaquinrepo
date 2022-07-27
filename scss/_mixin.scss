@@ -45,7 +45,7 @@
 	@include textoMain(1.5rem, $white);
 }
 
-//mixin
+//mixin-map
 
 $paleta:(
 	"w":#ffffff,
@@ -69,6 +69,7 @@ $paleta:(
 	"17":#0b2442,
 	"18":#0074d9,
 	"19":#194f9f,
+	"20":#39ac31,
 	);
 
 	figcaption{

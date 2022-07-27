@@ -373,6 +373,42 @@ form ul {
 .option--md {
   font-size: 1.5rem; }
 
+.page_404 {
+  padding: 40px 0;
+  background: #ffffff;
+  font-family: "Anek Telugu", sans-serif; }
+  .page_404 img {
+    width: 100%; }
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+  width: 100%; }
+  .four_zero_four_bg h1 {
+    font-size: 80px;
+    overflow-y: hidden; }
+
+.contant_box_404 {
+  margin-top: -50px; }
+  .contant_box_404 .h3 {
+    font-size: 2rem;
+    overflow-y: hidden; }
+  .contant_box_404 .p_404 {
+    font-size: 1.5rem; }
+
+.link_404 {
+  color: #ffffff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem; }
+
+.contant_box_404 {
+  margin-top: -50px; }
+
 @media (max-width: 400px) {
   .contenedor__padre--index {
     display: grid;
@@ -1147,4 +1183,39 @@ h1 {
     list-style-type: none; }
   .form__inputs--contacto {
     width: 100%;
-    padding: 10px; } }
+    padding: 10px; }
+  .page_404 {
+    padding: 40px 0;
+    background: #ffffff;
+    font-family: "Anek Telugu", sans-serif; }
+    .page_404 img {
+      width: 100%; }
+  .four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    width: 100%; }
+    .four_zero_four_bg h1 {
+      font-size: 80px;
+      overflow-y: hidden; }
+  .contant_box_404 {
+    margin-top: -50px; }
+    .contant_box_404 .h3 {
+      font-size: 2rem;
+      overflow-y: hidden; }
+    .contant_box_404 .p_404 {
+      font-size: 1.5rem; }
+  .link_404 {
+    color: #ffffff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem; }
+  .contant_box_404 {
+    margin-top: -50px; } }
+
+@media (min-width: 1600px) {
+  .row_404 {
+    margin-left: 10vw; } }

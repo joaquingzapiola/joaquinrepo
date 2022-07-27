@@ -1,0 +1,52 @@
+
+
+//404
+
+.page_404{ 
+  padding:40px 0; 
+  background:$white; 
+  font-family: $mainFont;
+  img{ 
+    width:100%;
+  }
+}
+
+
+.four_zero_four_bg{
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+  width:100%;
+  h1{
+    font-size:80px;
+    overflow-y: hidden;
+  }
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+  .h3{
+    font-size:$textMd;
+    overflow-y: hidden;
+  }
+  .p_404{
+    font-size: $textSm;
+  }
+}
+
+
+
+       
+.link_404{      
+  color: $white!important;
+  padding: 10px 20px;
+  background: map-get($map:$paleta, $key:"20");
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  font-size: $textMd;
+}
+
+.contant_box_404{ 
+  margin-top:-50px;
+}
