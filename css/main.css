@@ -827,15 +827,15 @@ h1 {
       box-sizing: border-box; }
   @keyframes header__animation {
     0% {
-      background-image: url(../img/header-copia.jpg); }
+      background-image: url(../img/header-copia.webp); }
     25% {
-      background-image: url(../img/header22.jpg); }
+      background-image: url(../img/header22.webp); }
     50% {
-      background-image: url(../img/header33.jpg); }
+      background-image: url(../img/header33.webp); }
     75% {
-      background-image: url(../img/header44.jpg); }
+      background-image: url(../img/header44.webp); }
     100% {
-      background-image: url(../img/header55.jpg); } }
+      background-image: url(../img/header55.webp); } }
   h1,
   h2 {
     font-family: 'Anek Telugu', sans-serif; }
