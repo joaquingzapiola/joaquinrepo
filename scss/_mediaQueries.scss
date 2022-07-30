@@ -39,6 +39,96 @@ aside .aside__ad__img--tamaño {
   margin-left: 27.5vw;
 }
 
+//Footer
+
+footer{
+	a{
+		margin: 20px;
+	}
+	h5{
+		overflow-y: hidden;
+	}
+	.form-control {
+    width: 86%;
+    margin-left: 3.5vw;
+  }
+  .form-label {
+    margin-top: 1rem;
+  }
+  ul{
+  	list-style-type: none;
+  	margin: 1px;
+  	padding: 1px;
+  }
+}
+
+//Libros.Html
+
+section .main__div__table--libros .main__table--libros {
+  font-size: 1.5rem;
+}
+
+//Locales.html
+
+section .main__div__table--locales .main__table--locales {
+  font-size: 1.5rem;  
+}
+.main__div__form--locales{
+	font-size: 1.8rem;
+  .main__form__select--locales {
+    margin-left: 41vw;
+    margin-bottom: 1vh;
+  }
+}
+
+//Ofertas y compras.html
+
+#productos .galeria figure {
+  width: 56vw;
+  img {
+    width: 40vw;
+    height: 60vh;
+    margin-bottom: 1.5vh;
+  }
+}
+
+section{
+	.main__div__carrito--ofertas-y-compras .div__form__carrito--ofertas-y-compras .radio1 {
+    display: inline-block;
+  }
+  .form__input__bottom--ofertas-y-compras {
+    font-size: 1.5rem;
+  }
+}
+
+//Contacto.html
+
+
+.form__contacto {
+  width: 75%;
+  ul {
+    padding: 10px;
+  }
+}
+.aside__flex--padre {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5vh;
+}
+
+
+//404.html
+
+section{
+	.four_zero_four_bg {
+    margin-left: 10vw;
+  }
+  .contant_box_404 {
+    margin-top: -4vh;
+    margin-left: 20vw;
+  }
+}
+
 }
 
 
@@ -665,6 +755,7 @@ form ul{
   padding:40px 0; 
   background:$white; 
   font-family: $mainFont;
+  margin-left: 13vw;
   img{ 
     width:100%;
   }
