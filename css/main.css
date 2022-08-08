@@ -167,7 +167,7 @@ section .main__div__table--locales {
     font-family: "Anek Telugu", sans-serif;
     color: #000;
     border-collapse: collapse;
-    font-size: 1.1rem; }
+    font-size: 1.2rem; }
     section .main__div__table--locales .main__table--locales .th__table--locales {
       background-color: #49498a;
       border-bottom: solid 5px #000;
@@ -691,6 +691,9 @@ div .page-item {
     font-family: "Anek Telugu", sans-serif;
     font-size: 1.6rem; }
 
+div ul {
+  list-style: none; }
+
 footer {
   margin: 10px;
   padding: 10px 5px;
@@ -713,6 +716,9 @@ footer {
   list-style: none;
   padding-top: 5px; }
 
+h5 {
+  overflow-y: hidden; }
+
 * {
   padding: 0;
   margin: 0;
@@ -731,6 +737,10 @@ h1 {
   font-size: 4rem;
   margin: 0px;
   text-align: center; }
+
+@media (min-width: 450px) {
+  nav img {
+    width: 66vw; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   nav img {
@@ -891,7 +901,7 @@ h1 {
           text-align: center;
           padding: 5px 16px;
           text-decoration: none;
-          font-family: 'Anek Telugu', sans-serif;
+          font-family: "Anek Telugu", sans-serif;
           font-size: 1.5rem;
           margin-top: 0px; }
           nav ul li ahover:not(.active) {
@@ -905,7 +915,7 @@ h1 {
       nav form img {
         float: right; }
         nav form img label {
-          font-family: 'Anek Telugu', sans-serif;
+          font-family: "Anek Telugu", sans-serif;
           font-size: 1.5rem;
           color: #ffffff; }
   header {
@@ -943,7 +953,7 @@ h1 {
       background-image: url(../img/header55.webp); } }
   h1,
   h2 {
-    font-family: 'Anek Telugu', sans-serif; }
+    font-family: "Anek Telugu", sans-serif; }
   h1 {
     color: #1e2626;
     font-size: 2.8rem;
